@@ -1,0 +1,14 @@
+{% extends "::principal_layout.html.twig" %}
+
+{% block body %}
+    <table>
+            <tr>
+                <td><a href="{{ path('vieille_sardine_produit_ajout') }}">Ajout</a></td>
+                <td><a href="">Modification</a></td>
+                <td><a href="">Supprimer</a></td>
+            </tr>
+        </table>
+        {% block produit_body %}
+
+        {% endblock %}
+{% endblock %}

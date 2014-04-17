@@ -1,3 +1,7 @@
 vieille_sardine_produit_homepage:
-    pattern:  /hello/{name}
+    pattern:  /produit
     defaults: { _controller: VieilleSardineProduitBundle:Produit:index }
+    
+vieille_sardine_produit_ajout:
+    pattern:  /ajout
+    defaults: { _controller: VieilleSardineProduitBundle:Produit:ajout }
