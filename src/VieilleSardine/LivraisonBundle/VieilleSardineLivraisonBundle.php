@@ -1,5 +1,8 @@
 <?php
 
+// modif eclipse
+// test
+
 namespace VieilleSardine\LivraisonBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
